@@ -149,7 +149,7 @@ async function sendBankInfo(channel, user, amount = null) {
     if (amount) {
         bankEmbed.addFields({
             name: '💵 ยอดเงินที่ต้องชำระ',
-            value: `# 💰 ${amount}`, 
+            value: `#  ${amount}`, 
             inline: false
         });
     }
